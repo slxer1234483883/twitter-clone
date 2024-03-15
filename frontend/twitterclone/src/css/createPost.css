@@ -1,0 +1,16 @@
+#formBox {
+  border: 2px solid #ccc; /* Thicker border with a neutral color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 8px; /* Add some border-radius for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+#formBox:hover {
+  border-color: #007bff; /* Change border color on hover for a subtle effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}

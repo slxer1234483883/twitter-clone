@@ -1,0 +1,98 @@
+body {
+  background-color: #3f3f3f;
+}
+#navbar {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px black;
+  transition: 300ms ease-in-out;
+}
+
+#logo h1 {
+  color: cyan;    
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#Link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 500ms ease-in-out;
+}
+
+#Link:hover {
+  color: cyan;
+}
+
+#navbar:hover {
+  background-color: #383838;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 300px;
+}
+
+#formbox {
+  border: 1px solid white;
+  margin-top: 20%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+}
+
+#formbox button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #3f3f3f;
+  color: white;
+  transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+
+#formbox button:hover {
+  background-color: cyan;
+  box-shadow: 10px 10px 10px 5px black;
+  color: black;
+}
+
+form label {
+  font-size: 25px;
+  color: white;
+}
+
+form input {
+  height: 30px;
+  font-size: 20px;
+}
+
+#reg p {
+  color: black;
+}
+
+#reg p a {
+  text-decoration: none;
+  color: black;
+  transition: 400ms ease-in;
+}
+
+#reg p a:hover {
+  color: white;
+}

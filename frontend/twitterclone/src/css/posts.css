@@ -1,0 +1,67 @@
+#navbar {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px black;
+  transition: 300ms ease-in-out;
+}
+
+#logo h1 {
+  color: cyan;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#Link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 500ms ease-in-out;
+}
+
+#Link:hover {
+  color: cyan;
+}
+
+#navbar:hover {
+  background-color: #383838;
+}
+
+#posts {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: 500ms ease-in-out;
+}
+
+#posts:hover {
+  box-shadow: 5px 5px 10px white;
+}
+
+#posts h1 {
+  color: white;
+}
+
+#posts h4 {
+  color: wheat;
+  font-size: 20px;
+}
+
+#res {
+  margin-top: 30px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

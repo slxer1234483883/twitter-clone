@@ -1,0 +1,69 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a modern font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+#navbar {
+  background-color: #343a40; /* Dark background color */
+  border-radius: 0; /* Remove border radius */
+  padding: 10px 20px; /* Decrease padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: background-color 0.3s ease-in-out;
+}
+
+#logo h1 {
+  color: #ffffff; /* White text color */
+  font-size: 24px; /* Larger font size */
+  margin: 0; /* Reset margin */
+}
+
+#links {
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  align-items: center;
+}
+
+#links a {
+  color: #ffffff; /* White text color */
+  font-size: 16px; /* Smaller font size */
+  text-decoration: none;
+  margin-left: 20px; /* Add spacing between links */
+  transition: color 0.5s ease-in-out;
+}
+
+#links a:hover {
+  color: #007bff; /* Hover color */
+}
+
+#navbar:hover {
+  background-color: #23272b; /* Darker background color on hover */
+}
+
+#formSubmission {
+  padding: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 12px 24px; /* Increased padding */
+  background-color: #007bff; /* Blue button color */
+  color: #ffffff; /* White text color */
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker hover color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}

@@ -1,0 +1,49 @@
+body {
+  background-color: #f9f9f9; /* Use a lighter background color for better readability */
+  margin: 0; /* Reset default margin */
+  font-family: Arial, sans-serif; /* Choose a commonly used font for better compatibility */
+}
+
+#navbar {
+  background-color: #ffffff; /* Use a white background for the navbar */
+  border: 1px solid #dddddd; /* Use a subtle border color */
+  border-radius: 20px; /* Reduce border-radius for a more modern look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+h1 {
+  color: #007bff; /* Use a professional color for headings */
+  font-size: 24px; /* Increase font size for better emphasis */
+  margin: 0; /* Reset default margin */
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#links a {
+  color: #333333; /* Use a darker color for links */
+  font-size: 18px; /* Reduce font size slightly */
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+#links a:hover {
+  color: #007bff; /* Change link color on hover */
+}
+
+#navbar:hover {
+  background-color: #f2f2f2; /* Lighten background color on hover */
+}
+
+h1 {
+  text-align: center; /* Center align h1 for consistency */
+}
